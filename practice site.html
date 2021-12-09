@@ -1,26 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+    <!--meta-data-->
 	<head>
 		<title>practice site</title>
 		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
+		
 		<meta name="keywords" content="HTML, CSS, JS">
 		<meta name="description" content="yuval nachman remembering all that he have learned">
 		<meta name="author" content="Yuval">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-		<meta http-equiv="refresh" content="10">
+		<meta http-equiv="refresh" content="120">
 	</head>
+	
+	<!--content section-->
 	<body>
-		<header>
-			<nav>
+	    <!--nav-->
+		<header id="top">
+			<nav class="nav_bar">
 				<ul>
-					<li>home</li>
-					<li>gallery</li>
-					<li>about</li>
-					<li>contact</li>
-					<li>destroy the page</li>
+					<li><a href="#top">home</a></li>
+					<li><a href="#">gallery</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">contact</a></li>
+					<li><a href="#">destroy the page</a></li>
 				</ul>
-			<nav>
+			</nav>
+			
+		<!--heading-->
+			<h1 id= "header">my practice web</h1>
 		</header>
+		
+		<!--main part-->
+		<main id="content">
+			<section class="section table">
+				<h2 class="presentation">pricing table:</h2>
+				<table class="table">
+					<thead id="th">
+						<tr>
+							<th scope="col">Plan</th>
+							<th scope="col">Bronze Packege</th>
+							<th scope="col">Gold Packege</th>
+							<th scope="col">Platinum Packege</th>
+						</tr>
+					</thead>
+					<tbody id="tb">
+						<tr>
+							<td scope="row">Hours per week</td>
+							<td>40</td>
+							<td>40</td>
+							<td>40</td>
+						</tr>
+						
+						<tr>
+							<td scope="row">Emails per week</td>
+							<td>400</td>
+							<td>600</td>
+							<td>Unlimited</td>
+						</tr>
+						
+						<tr>
+							<td scope="row">Poop breaks</td>
+							<td>3</td>
+							<td>2</td>
+							<td>1</td>
+						</tr>
+						
+						<tr>
+							<td scope="row">Overtime available</td>
+							<td></td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+						</tr>
+					</tbody>
+					<tfoot id="tf"></tfoot>
+				</table>
+			</section>
+		</main>
+		
 	</body>
 </html>
