@@ -2,17 +2,16 @@
 <html lang="en" dir="ltr">
     <!--meta-data-->
 	<head>
-		<title>practice site</title>
+		<title>rgba picker</title>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/rgba_style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&display=swap" rel="stylesheet">		
-		<meta name="keywords" content="HTML, CSS, JS">
-		<meta name="description" content="yuval nachman remembering all that he have learned">
-		<meta name="author" content="Yuval">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 		<meta http-equiv="refresh" content="120000">
+		<script src="js/rgba_script.js" defer></script>
 	</head>
 	
 	<!--content section-->
@@ -22,7 +21,7 @@
 			<nav class="nav_bar">
 				<ul>
 					<li><a href="#"><span>home</span></a></li>
-					<li><a href="./rgba color picker.html">color picker</a></li>
+					<li><a href="#">color picker</a></li>
 					<li><a href="#">about</a></li>
 					<li><a href="./pricing table.html">pricing table</a></li>
 					<li><a href="#">destroy the page</a></li>
@@ -30,14 +29,32 @@
 			</nav>
 			
 		<!--heading-->
-			<h1 id= "header">Yuval Nahman resume</h1>
+			<h1 id= "header">rgba color picker</h1>
 		</header>
 		
 		<!--main part-->
 		<main id="content">
 			<section class="section">
-				<h1 id= "header">rgba color picker</h1>
-				
+				<div id="output"></div>
+				<form>
+					<section class="input_color">
+						<label for="R"><image src="./images/red.png" alt="red color icon"></image></label>
+						<input id="R" name="R" type="range" min="0" max="255" step="1" value="0">
+						<input class="value_box" name="R" type="number" min="0" max="255" step="1" value="0">
+					</section>
+
+					<section class="input_color">
+						<label for="G"><image src="./images/green.png" alt="green color icon"></image></label>
+						<input id="G" name="G" type="range" min="0" max="255" step="1" value="0">
+						<input class="value_box" name="G" type="number" min="0" max="255" step="1" value="0">
+					</section>
+
+					<section class="input_color">
+						<label for="B"><image src="./images/blue.png" alt="blue color icon"></image></label>
+						<input id="B" name="B" type="range" min="0" max="255" step="1" value="0">
+						<input class="value_box" name="B" type="number" min="0" max="255" step="1" value="0">
+					</section>
+				</form>
 			</section>
 		</main>
 		

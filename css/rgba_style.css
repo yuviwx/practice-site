@@ -1,0 +1,10 @@
+#output{
+	height: 60px;
+	width: 500px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.value_box{
+	width: 40px;
+}
