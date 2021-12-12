@@ -1,10 +1,57 @@
-#output{
+.section{
+	text-align: center;
+}
+
+#output_rgba{
 	height: 60px;
 	width: 500px;
 	border: 1px solid black;
 	margin: 0 auto;
+	font-size: xxx-large;
+}
+
+span {
+    margin: 0;
+}
+
+form {
+    display: inline-block;
+    text-align: end;
+}
+
+.input_color{
+
+}
+
+R{
+
+}
+
+G{
+
+}
+
+B{
+
+}
+
+A{
+
 }
 
 .value_box{
 	width: 40px;
+}
+
+#output_color{
+	display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: rgba(0,0,0,1);
+}
+
+label[for=A]{
+	font-size: 28px;
+	text-transform: lowercase;
 }
