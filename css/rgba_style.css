@@ -9,7 +9,12 @@
 	margin: 0 auto;
 	font-size: xxx-large;
 	display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+	align-items: center;
+}
+
+p{
+	margin: 0 auto;
 }
 
 span {
@@ -22,7 +27,6 @@ span {
     height: 36px;
     background-color: white;
     border: none;
-    margin: auto 0;
 }
 
 form {
