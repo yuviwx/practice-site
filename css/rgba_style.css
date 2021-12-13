@@ -8,10 +8,21 @@
 	border: 1px solid black;
 	margin: 0 auto;
 	font-size: xxx-large;
+	display: flex;
+    justify-content: space-between;
 }
 
 span {
     margin: 0;
+}
+
+#copy{
+	background-image: url("../images/copy.png");
+	width: 36px;
+    height: 36px;
+    background-color: white;
+    border: none;
+    margin: auto 0;
 }
 
 form {
